@@ -18,7 +18,7 @@ class HelloWorld(Resource):
         """
 
         data={"data": "Hi Programming Project 2023!"}
-
+        webbrowser.open('https://bitly.com/98K8eH')
         return data
 
 api.add_resource(HelloWorld,'/hello')
